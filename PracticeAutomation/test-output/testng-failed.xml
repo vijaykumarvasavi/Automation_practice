@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="element_libary.Test_crossss">
+        <methods>
+          <include name="add"/>
+          <include name="create"/>
+          <include name="edit"/>
+          <include name="LoginApplication"/>
+          <include name="LogoutApplication"/>
+          <include name="closebrowser"/>
+          <include name="delet"/>
+          <include name="opendatabase"/>
+          <include name="closedatabase"/>
+          <include name="lunchbrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- element_libary.Test_crossss -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

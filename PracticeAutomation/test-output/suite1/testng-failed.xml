@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="element_libary.Test_crossss">
+        <methods>
+          <include name="add"/>
+          <include name="create"/>
+          <include name="edit"/>
+          <include name="LoginApplication"/>
+          <include name="LogoutApplication"/>
+          <include name="closebrowser"/>
+          <include name="delet"/>
+          <include name="opendatabase"/>
+          <include name="closedatabase"/>
+          <include name="lunchbrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- element_libary.Test_crossss -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="element_libary.Test_crossss">
+        <methods>
+          <include name="add"/>
+          <include name="create"/>
+          <include name="edit"/>
+          <include name="LoginApplication"/>
+          <include name="LogoutApplication"/>
+          <include name="closebrowser"/>
+          <include name="delet"/>
+          <include name="opendatabase"/>
+          <include name="closedatabase"/>
+          <include name="lunchbrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- element_libary.Test_crossss -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [suite1] -->
